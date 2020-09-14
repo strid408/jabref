@@ -716,7 +716,7 @@ public class JabRefFrame extends BorderPane {
 
     private MenuBar createMenu() {
         ActionFactory factory = new ActionFactory(Globals.getKeyPrefs());
-        Menu file = new Menu(Localization.lang("File"));
+        Menu file = new Menu(Localization.lang("New Name"));
         Menu edit = new Menu(Localization.lang("Edit"));
         Menu library = new Menu(Localization.lang("Library"));
         Menu quality = new Menu(Localization.lang("Quality"));
